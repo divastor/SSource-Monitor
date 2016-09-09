@@ -1,5 +1,4 @@
-# SSource-Monitor 1.0
-
+################### SSource-Monitor 1.0 #######################
 
 + Open-Source 
 
@@ -15,11 +14,14 @@
 
    -REQUIRES Python 2.7
 
-   -When I say "monitors", I mean it continuously requests the page's source code.
+   -When I say "monitors", I mean it continuously requests 
+    the page's source code.
 
-   -When I say static, I mean a web page whose source doesn't change every second.
+   -When I say static, I mean a web page whose source doesn't 
+    change every second.
 
-   -It runs in the background (but can be changed by making it a .py)
+   -It runs in the background (but can be changed by making 
+    it a .py).
 
    -It is NOT user friendly as you may notice.
 
@@ -33,7 +35,8 @@
 
 + Further notes:
 
-   It's not such a useful project, so I m not giving it that much of attention :) .
+   It's not such a useful project, so I m not giving it 
+   that much of attention :) .
 
 
 
@@ -46,4 +49,10 @@ How to run:
 
 3) Save changs and run the .pyw
 
-4) To stop it, terminate the process in the task manager OR run it in a window (.py instead of .pyw)
+4) To stop it, terminate the process in the task manager 
+   OR run it in a window (.py instead of .pyw)
+5) To check if the web-page has changed the source code, 
+   just check the log.txt (or whatever name you gave in 
+   logName variable).
+
+###############################################################
