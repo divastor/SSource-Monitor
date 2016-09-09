@@ -7,8 +7,8 @@ tCapture=0
 #-----------Change these--------------#
 logName="log.txt"
 delay=0 #in seconds
-precision=10000
-web_page='http://vaios.xyz/index'
+precision=10000 #10000 is recommended; increasing it you have higher precision rate but consumes more memory, while lower percision value gives lower percision rate with the benefit of consuming less memory
+web_page='url'
 #-------------------------------------#
 log=open(logName,"a") #Opening logName
 try:
